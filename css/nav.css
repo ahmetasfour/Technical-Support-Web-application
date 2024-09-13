@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+section{
+   padding:5rem 10%;
+}
+
+@keyframes fadeIn {
+   0%{
+      transform: scale(0);
+      opacity: 0;
+   }
+}
+
+.heading{
+   background-size: cover !important;
+   background-position: center !important;
+   padding-top: 10rem;
+   padding-bottom:15rem;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.heading h1{
+   font-size: 10rem;
+   text-transform: uppercase;
+   color:var(--white);
+   text-shadow: var(--text-shadow);
+}
+
+             
+
+.header{
+   position: sticky;
+   top:0; left:0; right:0;
+   z-index: 1000;
+   background-color: var(--white);
+   display: flex;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   box-shadow: var(--box-shadow);
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header .logo{
+   font-size: 2.5rem;
+   color:var(--black);
+}
+
+.header .navbar a{
+   font-size: 2rem;
+   margin-left: 2rem;
+   color:var(--black);
+}
+
+.header .navbar a:hover{
+   color:var(--main-color);
+}
